@@ -1,0 +1,60 @@
+/* you can add to or change this. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2A2B2A;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.header .container{
+    width: auto;
+}
+
+#game{
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+img{
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.score{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.limit{
+    pointer-events: none;
+    cursor: default;
+}
